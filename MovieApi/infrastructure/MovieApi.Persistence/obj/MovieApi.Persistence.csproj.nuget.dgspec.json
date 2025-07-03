@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadik\\source\\repos\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj": {}
+    "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sadik\\source\\repos\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadik\\source\\repos\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
         "projectName": "MoviApi.Domain",
-        "projectPath": "C:\\Users\\sadik\\source\\repos\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
-        "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadik\\source\\repos\\MovieApi\\Core\\MoviApi.Domain\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\sadik\\source\\repos\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj": {
+    "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadik\\source\\repos\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
         "projectName": "MovieApi.Persistence",
-        "projectPath": "C:\\Users\\sadik\\source\\repos\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
-        "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadik\\source\\repos\\MovieApi\\infrastructure\\MovieApi.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\infrastructure\\MovieApi.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,15 +91,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sadik\\source\\repos\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\sadik\\source\\repos\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj"
               }
             }
           }

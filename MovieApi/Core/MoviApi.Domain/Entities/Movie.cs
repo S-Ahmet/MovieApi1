@@ -17,8 +17,8 @@ namespace MoviApi.Domain.Entities
 
         public decimal Rating { get; set; }
 
-        public int Despriction  { get; set; }
-        public int Durtion { get; set; }
+        public int Description  { get; set; }
+        public int Duration { get; set; }
 
         public DateTime ReleaseDate { get; set; }
 
