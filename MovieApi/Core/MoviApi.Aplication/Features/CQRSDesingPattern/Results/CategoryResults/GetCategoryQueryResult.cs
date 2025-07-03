@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviApi.Aplication.Features.CQRSDesingPattern.Results.CategoryResults
 {
-    public class GetCategoryQeryResult
+    public class GetCategoryQueryResult
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }

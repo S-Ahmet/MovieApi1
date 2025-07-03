@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviApi.Aplication.Features.CQRSDesingPattern.Commands.CategoryCommands
 {
-    public class CreateCategoryCommands
+    public class CreateCategoryCommand
     {
 
         public string CategoryName { get; set; }

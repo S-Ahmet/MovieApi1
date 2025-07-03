@@ -19,7 +19,7 @@ namespace MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.CategoryHandler
             _context = context;
         }
 
-        public async void Handle(CreateCategoryCommands command)
+        public async Task Handle(CreateCategoryCommand command)
         {
             _context.Categories.Add(new Category
             {

@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace MoviApi.Aplication.Features.CQRSDesingPattern.Queries.CategoryQueries
 {
-    internal class GetCategoryByIdQery
+    public class GetCategoryByIdQuery
     {
+        public GetCategoryByIdQuery(int categoryId)
+        {
+            CategoryId = categoryId;
+        }
+
         public int CategoryId { get; set; }
 
     }

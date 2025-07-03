@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviApi.Aplication.Features.CQRSDesingPattern.Results.MovieResults
 {
-    public class GetMovieQeryResult
+    public class GetMovieByIdQueryResult
     {
 
         public int MovieId { get; set; }
@@ -17,7 +17,7 @@ namespace MoviApi.Aplication.Features.CQRSDesingPattern.Results.MovieResults
 
         public decimal Rating { get; set; }
 
-        public int Description { get; set; }
+        public string Description { get; set; }
         public int Duration { get; set; }
 
         public DateTime ReleaseDate { get; set; }
