@@ -4,7 +4,7 @@ namespace MovieApi.WebUI.Controllers
 {
     public class UILayoutController : Controller
     {
-        public IActionResult Index()
+        public IActionResult LayoutUI()
         {
             return View();
         }
