@@ -19,3 +19,4 @@ packages/
 *.dll
 *.pdb
 *.cache
+MovieApi/MovieApi/
