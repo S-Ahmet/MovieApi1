@@ -1,4 +1,8 @@
 ﻿
+using MediatR;
+using MovieApi.Application.Features.MediatorDesignPattern.Commands.TagCommands;
+using MovieApi.Persistence.Context;
+
 namespace MovieApi.Application.Features.MediatorDesignPattern.Handlers.Tag_Handlers
 {
     public class UpdateTagCommandHandler : IRequestHandler<UpdateTagCommand>

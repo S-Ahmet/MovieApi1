@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {}
+    "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
+    "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
         "projectName": "MoviApi.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MoviApi.Domain\\obj\\",
+        "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\berke yener\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\berke yener\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

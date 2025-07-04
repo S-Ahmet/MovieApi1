@@ -17,18 +17,18 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
         {
             _context = context;
         }
-        public async void Handle(CreateMovieCommand command)
+        public async Task Handle(CreateMovieCommand command)
         {
             _context.Movies.Add(new Movie
             {
                 CoverImageUrl = command.CoverImageUrl,
-                CreatedYear = command.CreatedYear,      
+                CreatedYear = command.CreatedYear,
                 Description = command.Description,
                 Duration = command.Duration,
                 Rating = command.Rating,
                 ReleaseDate = command.ReleaseDate,
-                Status = command.Status,    
-                Title = command.Title, 
+                Status = command.Status,
+                Title = command.Title
             });
             await _context.SaveChangesAsync();
         }

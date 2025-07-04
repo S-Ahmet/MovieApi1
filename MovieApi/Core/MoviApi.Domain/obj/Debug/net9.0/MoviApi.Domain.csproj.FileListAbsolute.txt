@@ -21,3 +21,15 @@ C:\Users\user\Desktop\projeson\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\Mov
 C:\Users\user\Desktop\projeson\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\refint\MoviApi.Domain.dll
 C:\Users\user\Desktop\projeson\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.pdb
 C:\Users\user\Desktop\projeson\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\ref\MoviApi.Domain.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\bin\Debug\net9.0\MoviApi.Domain.deps.json
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\bin\Debug\net9.0\MoviApi.Domain.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\bin\Debug\net9.0\MoviApi.Domain.pdb
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.AssemblyInfoInputs.cache
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.AssemblyInfo.cs
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.sourcelink.json
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\refint\MoviApi.Domain.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\MoviApi.Domain.pdb
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Core\MoviApi.Domain\obj\Debug\net9.0\ref\MoviApi.Domain.dll

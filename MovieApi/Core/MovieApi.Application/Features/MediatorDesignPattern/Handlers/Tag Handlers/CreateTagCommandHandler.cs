@@ -1,5 +1,7 @@
 ﻿using MediatR;
+using MoviApi.Domain.Entities;
 using MovieApi.Application.Features.MediatorDesignPattern.Commands.CastCommands;
+using MovieApi.Application.Features.MediatorDesignPattern.Commands.TagCommands;
 using MovieApi.Persistence.Context;
 using System;
 using System.Collections.Generic;

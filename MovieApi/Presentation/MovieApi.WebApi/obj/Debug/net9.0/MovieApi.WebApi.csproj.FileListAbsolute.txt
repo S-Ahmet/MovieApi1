@@ -333,3 +333,14 @@ C:\Users\user\Desktop\projeson\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\n
 C:\Users\user\Desktop\projeson\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.pdb
 C:\Users\user\Desktop\projeson\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.genruntimeconfig.cache
 C:\Users\user\Desktop\projeson\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\ref\MovieApi.WebApi.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.csproj.AssemblyReference.cache
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.AssemblyInfoInputs.cache
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.AssemblyInfo.cs
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.sourcelink.json
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\refint\MovieApi.WebApi.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\MovieApi\Presentation\MovieApi.WebApi\obj\Debug\net9.0\MovieApi.WebApi.pdb
