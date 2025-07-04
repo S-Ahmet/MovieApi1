@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MovieApi",
+    "\\MovieApi\\Presentation",
+    "\\MovieApi\\Presentation\\MovieApi.WebApi"
+  ],
+  "SelectedNode": "\\MovieApi\\Presentation\\MovieApi.WebApi\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
