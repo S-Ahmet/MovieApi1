@@ -3,6 +3,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using MovieApi.Application.Features.MediatorDesignPattern.Commands.CastCommands;
+using MovieApi.Application.Features.MediatorDesignPattern.Queries.CastQueries;
 
 namespace MovieApi.WebApi.Controllers
 {
