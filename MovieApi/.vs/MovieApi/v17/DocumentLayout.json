@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\core\\movieapi.application\\features\\mediatordesignpattern\\handlers\\casthandlers\\createcastcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|solutionrelative:core\\movieapi.application\\features\\mediatordesignpattern\\handlers\\casthandlers\\createcastcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\core\\movieapi.application\\features\\cqrsdesignpattern\\handlers\\categoryhandlers\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|solutionrelative:core\\movieapi.application\\features\\cqrsdesignpattern\\handlers\\categoryhandlers\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DCCD4F9-9F69-4046-857B-641F1D136D6D}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\presentation\\movieapi.webapi\\controllers\\castscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DCCD4F9-9F69-4046-857B-641F1D136D6D}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|solutionrelative:presentation\\movieapi.webapi\\controllers\\castscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DCCD4F9-9F69-4046-857B-641F1D136D6D}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\presentation\\movieapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DCCD4F9-9F69-4046-857B-641F1D136D6D}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|solutionrelative:presentation\\movieapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\core\\movieapi.application\\features\\mediatordesignpattern\\handlers\\tag handlers\\updatetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|solutionrelative:core\\movieapi.application\\features\\mediatordesignpattern\\handlers\\tag handlers\\updatetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\core\\movieapi.application\\features\\mediatordesignpattern\\handlers\\tag handlers\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0EF560-AA32-4481-9205-259D4CF2B0D6}|Core\\MovieApi.Application\\MovieApi.Application.csproj|solutionrelative:core\\movieapi.application\\features\\mediatordesignpattern\\handlers\\tag handlers\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DCCD4F9-9F69-4046-857B-641F1D136D6D}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|c:\\users\\user\\desktop\\projeson\\movieapi\\presentation\\movieapi.webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DCCD4F9-9F69-4046-857B-641F1D136D6D}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|solutionrelative:presentation\\movieapi.webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateCastCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
+              "RelativeToolTip": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:27:10.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateCategoryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
+              "RelativeToolTip": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:00:42.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CastsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Presentation\\MovieApi.WebApi\\Controllers\\CastsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\MovieApi.WebApi\\Controllers\\CastsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Presentation\\MovieApi.WebApi\\Controllers\\CastsController.cs",
+              "RelativeToolTip": "Presentation\\MovieApi.WebApi\\Controllers\\CastsController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:56:51.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateTagCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\UpdateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\UpdateTagCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\UpdateTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\UpdateTagCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:54:48.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateTagCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:51:53.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Presentation\\MovieApi.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\MovieApi.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Presentation\\MovieApi.WebApi\\Program.cs",
+              "RelativeToolTip": "Presentation\\MovieApi.WebApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:16:53.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Presentation\\MovieApi.WebApi\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\MovieApi.WebApi\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\projeson\\MovieApi\\Presentation\\MovieApi.WebApi\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "Presentation\\MovieApi.WebApi\\Controllers\\TagsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwC4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:55:09.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

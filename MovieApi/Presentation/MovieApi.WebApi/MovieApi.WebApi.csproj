@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
       <PrivateAssets>all</PrivateAssets>
@@ -18,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\MoviApi.Aplication\MoviApi.Aplication.csproj" />
+    <ProjectReference Include="..\..\Core\MovieApi.Application\MovieApi.Application.csproj" />
     <ProjectReference Include="..\..\infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj" />
   </ItemGroup>
 

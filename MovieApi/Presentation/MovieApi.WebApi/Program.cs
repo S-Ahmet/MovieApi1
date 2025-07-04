@@ -3,6 +3,11 @@ using MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.CategoryHandlers;
 using MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.MovieHandlers;
 using MovieApi.Persistence.Context;
 
+using MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers;
+using MovieApi.Application.Features.CQRSDesignPattern.Queries.CategoryQueries;
+using MovieApi.Persistence.Context;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
