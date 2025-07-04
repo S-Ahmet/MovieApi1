@@ -17,7 +17,7 @@ namespace MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.CategoryHandler
             _contex = contex;
 
         }
-        public async void Handle(UpdateCategoryCommand command)
+        public async Task Handle(UpdateCategoryCommand command)
         {
             var value = await _contex.Categories.FindAsync(command.CategoryId);
             value.CategoryName = command.CategoryName;

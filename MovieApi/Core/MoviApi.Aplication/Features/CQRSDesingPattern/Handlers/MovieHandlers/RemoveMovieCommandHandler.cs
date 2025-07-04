@@ -19,7 +19,7 @@ namespace MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.MovieHandlers
             _contex = contex;
         }
 
-        public async void Handle(RemoveMovieCommand command)
+        public async Task Handle(RemoveMovieCommand command)
         {
             var value=await _contex.Movies.FindAsync(command.MovieId);
             _contex.Movies.Remove(value);

@@ -18,7 +18,7 @@ namespace MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.MovieHandlers
             _context = context;
         }
         
-        public async void Handle(CreateMovieCommand command)
+        public async Task Handle(CreateMovieCommand command)
         {
             _context.Movies.Add(new Movie
             { CoverImageUrl = command.CoverImageUrl,
