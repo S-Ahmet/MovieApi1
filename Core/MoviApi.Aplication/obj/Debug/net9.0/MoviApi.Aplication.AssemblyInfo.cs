@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviApi.Aplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d0af43ebbb35b1975e53bb5e03e779c7d6b16b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b97d2cc240353bd212dfa48052d6e2d687ca709")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviApi.Aplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviApi.Aplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

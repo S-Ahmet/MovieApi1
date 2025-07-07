@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qrxfcm/B5SI=",
+  "dgSpecHash": "Fa33oZhGZ5Y=",
   "success": false,
-  "projectFilePath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berke yener\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\berke yener\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -88,10 +88,10 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj' projesi bulunamadı. Proje başvurusunun geçerli olup olmadığını ve proje dosyasının mevcut olup olmadığını denetleyin.",
-      "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
-      "filePath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
-      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
+      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj' projesi bulunamadı. Proje başvurusunun geçerli olup olmadığını ve proje dosyasının mevcut olup olmadığını denetleyin.",
+      "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+      "filePath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
       "targetGraphs": [
         "net9.0"
       ]
