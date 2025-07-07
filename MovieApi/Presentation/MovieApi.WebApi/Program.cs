@@ -1,7 +1,9 @@
 using Microsoft.OpenApi.Models;
 using MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.CategoryHandlers;
 using MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.MovieHandlers;
+using MovieApi.Application.Features.MediatorDesignPattern.Handlers.TagHandlers;
 using MovieApi.Persistence.Context;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +23,8 @@ builder.Services.AddScoped<CreateMovieCommandHandler>();
 builder.Services.AddScoped<RemoveMovieCommandHandler>();
 builder.Services.AddScoped<UpdateMovieCommandHandler>();
 
-
+//builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetTagQueryHandler).Assembly));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
