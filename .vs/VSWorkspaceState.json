@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MovieApi",
-    "\\MovieApi\\Core\\MoviApi.Aplication",
-    "\\MovieApi\\Core\\MoviApi.Aplication\\Features",
     "\\MovieApi\\MovieApi.WebUI",
     "\\MovieApi\\MovieApi.WebUI\\Controllers"
   ],
-  "SelectedNode": "\\MovieApi\\MovieApi.WebUI",
   "PreviewInSolutionExplorer": false
 }
