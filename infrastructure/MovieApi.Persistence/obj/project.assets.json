@@ -4705,7 +4705,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+      "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
@@ -4745,8 +4745,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
-              "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj"
+            "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj": {
+              "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj"
             }
           }
         }
@@ -4810,10 +4810,10 @@
   },
   "logs": [
     {
-      "code": "NU1105",
+      "code": "NU1104",
       "level": "Error",
-      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj' için proje bilgileri bulunamıyor. Visual Studio kullanıyorsanız, bunun nedeni projenin yüklenmemiş veya geçerli çözümün bir parçası olmaması olabilir. Komut satırından bir geri yükleme işlemi çalıştırın. Aksi takdirde proje dosyası geçersiz olabilir veya geri yükleme için gereken hedefler eksik olabilir.",
-      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj' projesi bulunamadı. Proje başvurusunun geçerli olup olmadığını ve proje dosyasının mevcut olup olmadığını denetleyin.",
+      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
       "targetGraphs": [
         "net9.0"
       ]
