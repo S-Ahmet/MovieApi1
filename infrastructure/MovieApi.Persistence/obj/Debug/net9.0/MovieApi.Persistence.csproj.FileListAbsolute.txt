@@ -33,3 +33,6 @@ C:\Users\sadik\source\repos\S-Ahmet\MovieApi\MovieApi\infrastructure\MovieApi.Pe
 C:\Users\sadik\source\repos\S-Ahmet\MovieApi\MovieApi\infrastructure\MovieApi.Persistence\obj\Debug\net9.0\MovieApi.Persistence.pdb
 C:\Users\sadik\source\repos\S-Ahmet\MovieApi\MovieApi\infrastructure\MovieApi.Persistence\obj\Debug\net9.0\MovieApi.Persistence.genruntimeconfig.cache
 C:\Users\sadik\source\repos\S-Ahmet\MovieApi\MovieApi\infrastructure\MovieApi.Persistence\obj\Debug\net9.0\ref\MovieApi.Persistence.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\Infrastructure\MovieApi.Persistence\obj\Debug\net9.0\MovieApi.Persistence.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\Infrastructure\MovieApi.Persistence\obj\Debug\net9.0\refint\MovieApi.Persistence.dll
+C:\Users\berke yener\Desktop\Trt Staj Projesi\MovieApi\Infrastructure\MovieApi.Persistence\obj\Debug\net9.0\MovieApi.Persistence.pdb

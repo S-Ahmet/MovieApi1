@@ -1598,16 +1598,6 @@
             "rid": "win"
           }
         }
-      },
-      "MoviApi.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/MoviApi.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MoviApi.Domain.dll": {}
-        }
       }
     }
   },
@@ -4711,20 +4701,15 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "MoviApi.Domain/1.0.0": {
-      "type": "project",
-      "path": "../../Core/MoviApi.Domain/MoviApi.Domain.csproj",
-      "msbuildProject": "../../Core/MoviApi.Domain/MoviApi.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.1",
-      "MoviApi.Domain >= 1.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.1"
     ]
   },
   "packageFolders": {
@@ -4734,11 +4719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berke yener\\Downloads\\yarım proje\\yarım proje\\MovieApi\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
       "projectName": "MovieApi.Persistence",
-      "projectPath": "C:\\Users\\berke yener\\Downloads\\yarım proje\\yarım proje\\MovieApi\\MovieApi\\infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
+      "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
       "packagesPath": "C:\\Users\\berke yener\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berke yener\\Downloads\\yarım proje\\yarım proje\\MovieApi\\MovieApi\\infrastructure\\MovieApi.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Infrastructure\\MovieApi.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4760,8 +4745,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\berke yener\\Downloads\\yarım proje\\yarım proje\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
-              "projectPath": "C:\\Users\\berke yener\\Downloads\\yarım proje\\yarım proje\\MovieApi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj"
+            "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj": {
+              "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj"
             }
           }
         }
@@ -4822,5 +4807,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj' için proje bilgileri bulunamıyor. Visual Studio kullanıyorsanız, bunun nedeni projenin yüklenmemiş veya geçerli çözümün bir parçası olmaması olabilir. Komut satırından bir geri yükleme işlemi çalıştırın. Aksi takdirde proje dosyası geçersiz olabilir veya geri yükleme için gereken hedefler eksik olabilir.",
+      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi\\Core\\MoviApi.Domain\\MoviApi.Domain.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

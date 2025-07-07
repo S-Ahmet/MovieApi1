@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieApi.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d0af43ebbb35b1975e53bb5e03e779c7d6b16b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7575268be9fc6a03deaeb2f0585362b34fd37484")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieApi.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieApi.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
