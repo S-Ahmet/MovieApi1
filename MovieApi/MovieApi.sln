@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{4C42342D-4641-48AF-BD7B-6849543CB7C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviApi.Domain", "Core\MoviApi.Domain\MoviApi.Domain.csproj", "{FF7197DF-33A9-4248-8D13-1289710BA84D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\MoviApi.Domain\MovieApi.Domain.csproj", "{FF7197DF-33A9-4248-8D13-1289710BA84D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{73799761-17B6-473E-BEE6-3718C00687D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{9DCCD4F9-9F69-4046-857B-641F1D136D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviApi.Aplication", "Core\MoviApi.Aplication\MoviApi.Aplication.csproj", "{675BE312-A860-41D4-BA3E-16D1B6106B89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Aplication", "Core\MoviApi.Aplication\MovieApi.Aplication.csproj", "{675BE312-A860-41D4-BA3E-16D1B6106B89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebUI", "Frontends\MovieApi.WebUI\MovieApi.WebUI.csproj", "{28FD3466-0F1A-46A0-B870-7E7DC459B76D}"
 EndProject
