@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MoviApi.Aplication.Features.CQRSDesingPattern.Commands.CategoryCommands;
-using MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.CategoryHandlers;
-using MoviApi.Aplication.Features.CQRSDesingPattern.Queries.CategoryQueries;
+using MovieApi.Application.Features.CQRSDesignPattern.Commands.CategoryCommands;
+using MovieApi.Application.Features.CQRSDesignPattern.Handlers.CategoryHandlers;
+using MovieApi.Application.Features.CQRSDesignPattern.Queries.CategoryQueries;
 
 namespace MovieApi.WebApi.Controllers
 {
@@ -15,13 +15,8 @@ namespace MovieApi.WebApi.Controllers
         private readonly CreateCategoryCommandHandler _createCategoryCommandHandler;
         private readonly UpdateCategoryCommandHandler _updateCategoryCommandHandler;
         private readonly RemoveCategoryCommandHandler _removeCategoryCommandHandler;
-        
 
-        public CategoriesController(GetCategoryQueryHandler getCategoryQueryHandler,
-            GetCategoryByIdQueryHandler getCategoryByIdQueryHandler,
-            CreateCategoryCommandHandler createCategoryCommandHandler, 
-            UpdateCategoryCommandHandler updateCategoryCommandHandler,
-            RemoveCategoryCommandHandler removeCategoryCommandHandler)
+        public CategoriesController(GetCategoryQueryHandler getCategoryQueryHandler, GetCategoryByIdQueryHandler getCategoryByIdQueryHandler, CreateCategoryCommandHandler createCategoryCommandHandler, UpdateCategoryCommandHandler updateCategoryCommandHandler, RemoveCategoryCommandHandler removeCategoryCommandHandler)
         {
             _getCategoryQueryHandler = getCategoryQueryHandler;
             _getCategoryByIdQueryHandler = getCategoryByIdQueryHandler;
@@ -31,14 +26,13 @@ namespace MovieApi.WebApi.Controllers
         }
 
         [HttpGet]
-
-        public async Task<ActionResult> CategoryList()
+        public async Task<IActionResult> CategoryList()
         {
             var value = await _getCategoryQueryHandler.Handle();
             return Ok(value);
         }
-        [HttpPost]
 
+        [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryCommand command)
         {
             await _createCategoryCommandHandler.Handle(command);
@@ -49,15 +43,14 @@ namespace MovieApi.WebApi.Controllers
         public async Task<IActionResult> DeleteCategory(int id)
         {
             await _removeCategoryCommandHandler.Handle(new RemoveCategoryCommand(id));
-            return Ok("Silme İşlemi Başarılı");
+            return Ok("Silme işlemi başarılı!");
         }
 
         [HttpPut]
-
         public async Task<IActionResult> UpdateCategory(UpdateCategoryCommand command)
         {
             await _updateCategoryCommandHandler.Handle(command);
-            return Ok("Güncelleme İşlemi Başarılı");
+            return Ok("Güncelleme işlemi başarılı!");
         }
 
         [HttpGet("GetCategory")]
@@ -67,4 +60,4 @@ namespace MovieApi.WebApi.Controllers
             return Ok(value);
         }
     }
-    }
+}

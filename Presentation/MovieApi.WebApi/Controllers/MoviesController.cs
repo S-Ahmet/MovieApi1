@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MoviApi.Aplication.Features.CQRSDesingPattern.Commands.MovieCommands;
-using MoviApi.Aplication.Features.CQRSDesingPattern.Handlers.MovieHandlers;
-using MoviApi.Aplication.Features.CQRSDesingPattern.Queries.MovieQeries;
+using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
+using MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers;
+using MovieApi.Application.Features.CQRSDesignPattern.Queries.MovieQueries;
 
 namespace MovieApi.WebApi.Controllers
 {
@@ -16,11 +16,7 @@ namespace MovieApi.WebApi.Controllers
         private readonly UpdateMovieCommandHandler _updateMovieCommandHandler;
         private readonly RemoveMovieCommandHandler _removeMovieCommandHandler;
 
-        public MoviesController(GetMovieByIdQueryHandler getMovieByIdQueryHandler,
-            GetMovieQueryHandler getMovieQueryHandler,
-            CreateMovieCommandHandler createMovieCommandHandler,
-            UpdateMovieCommandHandler updateMovieCommandHandler,
-            RemoveMovieCommandHandler removeMovieCommandHandler)
+        public MoviesController(GetMovieByIdQueryHandler getMovieByIdQueryHandler, GetMovieQueryHandler getMovieQueryHandler, CreateMovieCommandHandler createMovieCommandHandler, UpdateMovieCommandHandler updateMovieCommandHandler, RemoveMovieCommandHandler removeMovieCommandHandler)
         {
             _getMovieByIdQueryHandler = getMovieByIdQueryHandler;
             _getMovieQueryHandler = getMovieQueryHandler;
@@ -28,6 +24,7 @@ namespace MovieApi.WebApi.Controllers
             _updateMovieCommandHandler = updateMovieCommandHandler;
             _removeMovieCommandHandler = removeMovieCommandHandler;
         }
+
         [HttpGet]
         public async Task<IActionResult> MovieList()
         {
@@ -35,22 +32,21 @@ namespace MovieApi.WebApi.Controllers
             return Ok(value);
         }
 
-        [HttpPost] 
+        [HttpPost]
         public async Task<IActionResult> CreateMovie(CreateMovieCommand command)
         {
             await _createMovieCommandHandler.Handle(command);
-            return Ok("Fil Ekleme İşlemi Başarılı");
+            return Ok("Film ekleme işlemi başarılı");
         }
 
         [HttpDelete]
         public async Task<IActionResult> DeleteMovie(int id)
         {
             await _removeMovieCommandHandler.Handle(new RemoveMovieCommand(id));
-            return Ok("Film Silme İşlemi Başarılı");
+            return Ok("Film silme işlemi başarılı");
         }
 
         [HttpGet("GetMovie")]
-
         public async Task<IActionResult> GetMovie(int id)
         {
             var value = await _getMovieByIdQueryHandler.Handle(new GetMovieByIdQuery(id));
@@ -61,8 +57,7 @@ namespace MovieApi.WebApi.Controllers
         public async Task<IActionResult> UpdateMovie(UpdateMovieCommand command)
         {
             await _updateMovieCommandHandler.Handler(command);
-            return Ok("Film Güncelleme İşlemi Başarılı");
+            return Ok("Film güncelleme işlemi başarılı");
         }
-
     }
 }
