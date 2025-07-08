@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MoviApi.Domain.Entities;
+using MovieApi.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Formats.Asn1;

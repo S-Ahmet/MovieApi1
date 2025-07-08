@@ -1,4 +1,4 @@
-﻿using MoviApi.Domain.Entities;
+﻿using MovieApi.Domain.Entities;
 using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
 using MovieApi.Persistence.Context;
 using System;
@@ -19,11 +19,11 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
         }
         public async Task Handle(CreateMovieCommand command)
         {
-            _context.Movies.Add(new Movie
+            _ = _context.Movies.Add(new Movie
             {
                 CoverImageUrl = command.CoverImageUrl,
                 CreatedYear = command.CreatedYear,
-                Description = command.Description,
+                Description = command.Description.ToString(), // Fixed: Convert int to string
                 Duration = command.Duration,
                 Rating = command.Rating,
                 ReleaseDate = command.ReleaseDate,

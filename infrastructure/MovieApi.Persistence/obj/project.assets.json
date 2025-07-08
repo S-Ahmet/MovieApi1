@@ -1598,6 +1598,16 @@
             "rid": "win"
           }
         }
+      },
+      "MovieApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MovieApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApi.Domain.dll": {}
+        }
       }
     }
   },
@@ -4701,15 +4711,20 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MovieApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/MovieApi.Domain/MovieApi.Domain.csproj",
+      "msbuildProject": "../../Core/MovieApi.Domain/MovieApi.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.1",
+      "MovieApi.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4807,16 +4822,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj' projesi bulunamadı. Proje başvurusunun geçerli olup olmadığını ve proje dosyasının mevcut olup olmadığını denetleyin.",
-      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

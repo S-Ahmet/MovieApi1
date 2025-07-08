@@ -25,11 +25,10 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
             value.Duration = command.Duration;
             value.CoverImageUrl = command.CoverImageUrl;
             value.CreatedYear = command.CreatedYear;
-            value.Description = command.Description;
+            value.Description = command.Description.ToString(); // Fix: Convert int to string
             value.ReleaseDate = command.ReleaseDate;
             value.Title = command.Title;
             await _context.SaveChangesAsync();
-
         }
     }
 

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Fa33oZhGZ5Y=",
-  "success": false,
+  "dgSpecHash": "Vz4AnZbJUiQ=",
+  "success": true,
   "projectFilePath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berke yener\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -84,17 +84,5 @@
     "C:\\Users\\berke yener\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\berke yener\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "'C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj' projesi bulunamadı. Proje başvurusunun geçerli olup olmadığını ve proje dosyasının mevcut olup olmadığını denetleyin.",
-      "projectPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
-      "filePath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Infrastructure\\MovieApi.Persistence\\MovieApi.Persistence.csproj",
-      "libraryId": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Domain\\MovieApi.Domain.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

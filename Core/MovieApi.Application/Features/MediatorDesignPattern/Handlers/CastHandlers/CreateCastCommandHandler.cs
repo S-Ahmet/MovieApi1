@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using MoviApi.Domain.Entities;
+using MovieApi.Domain.Entities;
 using MovieApi.Application.Features.MediatorDesignPattern.Commands.CastCommands;
 using MovieApi.Persistence.Context;
 using System;

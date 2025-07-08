@@ -1,4 +1,4 @@
-﻿using MoviApi.Domain.Entities;
+﻿using MovieApi.Domain.Entities;
 using MovieApi.Application.Features.CQRSDesignPattern.Commands.CategoryCommands;
 using MovieApi.Persistence.Context;
 using System;
