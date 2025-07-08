@@ -11,7 +11,6 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Queries.CastQuerie
     public class GetCastByIdQuery : IRequest<GetCastByIdQueryResult>
     {
         public int CastId { get; set; }
-
         public GetCastByIdQuery(int castId)
         {
             CastId = castId;

@@ -1,5 +1,5 @@
-﻿using MoviApi.Domain.Entities;
-using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
+﻿using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
+using MovieApi.Domain.Entities;
 using MovieApi.Persistence.Context;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,6 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
     public class CreateMovieCommandHandler
     {
         private readonly MovieContext _context;
-
         public CreateMovieCommandHandler(MovieContext context)
         {
             _context = context;

@@ -14,8 +14,4 @@
     <ProjectReference Include="..\MovieApi.Dto\MovieApi.Dto.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Core\MovieApi.Domain\MovieApi.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
