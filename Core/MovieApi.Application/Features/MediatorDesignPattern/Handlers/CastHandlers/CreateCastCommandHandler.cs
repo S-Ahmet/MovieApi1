@@ -1,6 +1,6 @@
 ﻿using MediatR;
-using MovieApi.Domain.Entities;
 using MovieApi.Application.Features.MediatorDesignPattern.Commands.CastCommands;
+using MovieApi.Domain.Entities;
 using MovieApi.Persistence.Context;
 using System;
 using System.Collections.Generic;
@@ -17,17 +17,16 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Handlers.CastHandl
         {
             _context = context;
         }
-
         public async Task Handle(CreateCastCommand request, CancellationToken cancellationToken)
         {
-           await _context.Casts.AddAsync(new Cast
+            await _context.Casts.AddAsync(new Cast
             {
                 Biography = request.Biography,
                 ImageUrl = request.ImageUrl,
                 Name = request.Name,
                 Overview = request.Overview,
                 Surname = request.Surname,
-                Title = request.Title,
+                Title = request.Title
             });
             await _context.SaveChangesAsync();
         }

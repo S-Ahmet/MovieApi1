@@ -12,12 +12,10 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Handlers.CastHandl
     public class UpdateCastCommandHandler : IRequestHandler<UpdateCastCommand>
     {
         private readonly MovieContext _context;
-
         public UpdateCastCommandHandler(MovieContext context)
         {
             _context = context;
         }
-
         public async Task Handle(UpdateCastCommand request, CancellationToken cancellationToken)
         {
             var values = await _context.Casts.FindAsync(request.CastId);

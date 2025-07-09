@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35ABFA0A-940E-4C24-A50D-835FD4BA7CC0}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|c:\\users\\berke yener\\desktop\\trt staj projesi\\movieapi1\\presentation\\movieapi.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35ABFA0A-940E-4C24-A50D-835FD4BA7CC0}|Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj|solutionrelative:presentation\\movieapi.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AEA05CD-2E5A-42F1-93BC-4A4F28B3EF1C}|Core\\MovieApi.Application\\MovieApi.Application.csproj|c:\\users\\berke yener\\desktop\\trt staj projesi\\movieapi1\\core\\movieapi.application\\features\\cqrsdesignpattern\\handlers\\moviehandlers\\updatemoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AEA05CD-2E5A-42F1-93BC-4A4F28B3EF1C}|Core\\MovieApi.Application\\MovieApi.Application.csproj|solutionrelative:core\\movieapi.application\\features\\cqrsdesignpattern\\handlers\\moviehandlers\\updatemoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,6 +82,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Presentation\\MovieApi.WebApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\MovieApi.WebApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Presentation\\MovieApi.WebApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Presentation\\MovieApi.WebApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:29:53.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UpdateMovieCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\MovieHandlers\\UpdateMovieCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\MovieHandlers\\UpdateMovieCommandHandler.cs",
@@ -85,12 +102,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\MovieHandlers\\UpdateMovieCommandHandler.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:06:54.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:06:54.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CreateCategoryCommand.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
@@ -98,12 +114,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Commands\\CategoryCommands\\CreateCategoryCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:06:45.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:06:45.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
@@ -111,12 +126,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "ViewState": "AgIAACgAAAAAAAAAAAAuwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-08T13:05:14.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:05:14.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreateTagCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
@@ -124,12 +138,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\Tag Handlers\\CreateTagCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:01:42.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:01:42.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CreateCastCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
@@ -137,12 +150,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\Features\\MediatorDesignPattern\\Handlers\\CastHandlers\\CreateCastCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:01:35.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:01:35.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CreateMovieCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\MovieHandlers\\CreateMovieCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\MovieHandlers\\CreateMovieCommandHandler.cs",
@@ -150,12 +162,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\MovieHandlers\\CreateMovieCommandHandler.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAApwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:00:52.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:00:52.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CreateCategoryCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
@@ -163,12 +174,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\Features\\CQRSDesignPattern\\Handlers\\CategoryHandlers\\CreateCategoryCommandHandler.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:00:49.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T13:00:49.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MovieApi.WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj",
               "RelativeDocumentMoniker": "Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj",
@@ -176,12 +186,11 @@
               "RelativeToolTip": "Presentation\\MovieApi.WebApi\\MovieApi.WebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-08T12:57:25.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T12:57:25.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MovieApi.Application.csproj",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Core\\MovieApi.Application\\MovieApi.Application.csproj",
               "RelativeDocumentMoniker": "Core\\MovieApi.Application\\MovieApi.Application.csproj",
@@ -189,12 +198,11 @@
               "RelativeToolTip": "Core\\MovieApi.Application\\MovieApi.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-08T12:57:06.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T12:57:06.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MovieContext.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\infrastructure\\MovieApi.Persistence\\Context\\MovieContext.cs",
               "RelativeDocumentMoniker": "infrastructure\\MovieApi.Persistence\\Context\\MovieContext.cs",
@@ -206,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LayoutUI.cshtml",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Frontends\\MovieApi.WebUI\\Views\\UserWebUILayout\\LayoutUI.cshtml",
               "RelativeDocumentMoniker": "Frontends\\MovieApi.WebUI\\Views\\UserWebUILayout\\LayoutUI.cshtml",
@@ -218,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Frontends\\MovieApi.WebUI\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "Frontends\\MovieApi.WebUI\\Controllers\\RegisterController.cs",
@@ -230,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CreateUserRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Frontends\\MovieApi.Dto\\Dtos\\UserRegisterDtos\\CreateUserRegisterDto.cs",
               "RelativeDocumentMoniker": "Frontends\\MovieApi.Dto\\Dtos\\UserRegisterDtos\\CreateUserRegisterDto.cs",
@@ -242,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Frontends\\MovieApi.WebUI\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "Frontends\\MovieApi.WebUI\\Controllers\\MovieController.cs",
@@ -254,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MovieDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Frontends\\MovieApi.WebUI\\Views\\Movie\\MovieDetail.cshtml",
               "RelativeDocumentMoniker": "Frontends\\MovieApi.WebUI\\Views\\Movie\\MovieDetail.cshtml",
@@ -266,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\berke yener\\Desktop\\Trt Staj Projesi\\MovieApi1\\Frontends\\MovieApi.WebUI\\Views\\Shared\\Components\\_MovieDetailOverviewComponentPartial\\Default.cshtml",
               "RelativeDocumentMoniker": "Frontends\\MovieApi.WebUI\\Views\\Shared\\Components\\_MovieDetailOverviewComponentPartial\\Default.cshtml",

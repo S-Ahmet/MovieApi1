@@ -13,13 +13,10 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Handlers.CastHandl
     public class GetCastByIdQueryHandler : IRequestHandler<GetCastByIdQuery, GetCastByIdQueryResult>
     {
         private readonly MovieContext _context;
-
         public GetCastByIdQueryHandler(MovieContext context)
         {
             _context = context;
         }
-
-
         public async Task<GetCastByIdQueryResult> Handle(GetCastByIdQuery request, CancellationToken cancellationToken)
         {
             var values = await _context.Casts.FindAsync(request.CastId);

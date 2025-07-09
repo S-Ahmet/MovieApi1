@@ -14,7 +14,6 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Handlers.CastHandl
     public class GetCastQueryHandler : IRequestHandler<GetCastQuery, List<GetCastQueryResult>>
     {
         private readonly MovieContext _context;
-
         public GetCastQueryHandler(MovieContext context)
         {
             _context = context;
@@ -22,16 +21,16 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Handlers.CastHandl
         public async Task<List<GetCastQueryResult>> Handle(GetCastQuery request, CancellationToken cancellationToken)
         {
             var values = await _context.Casts.ToListAsync();
-            return values.Select(x=>new GetCastQueryResult
+            return values.Select(x => new GetCastQueryResult
             {
-                Biography=x.Biography,
-                CastId=x.CastId,
-                ImageUrl=x.ImageUrl,
-                Name =x.Name,
-                Overview =x.Overview,
-                Surname=x.Surname,
-                Title =x.Title,
-            }).ToList(); 
-        }
+                Biography = x.Biography,
+                CastId = x.CastId,
+                ImageUrl = x.ImageUrl,
+                Name = x.Name,
+                Overview = x.Overview,
+                Surname = x.Surname,
+                Title = x.Title
+            }).ToList();
+        }//AsNoTracking();
     }
 }
