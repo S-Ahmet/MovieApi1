@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviApi.Domain.Entities
+namespace MovieApi.Domain.Entities
 {
     public class Review
     {
